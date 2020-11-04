@@ -15,7 +15,7 @@
     <p id="description">explanation about the survey form</p>
     <br />
     <form action="" id="survey-form">
-      <label id="name-label" for="name">Name</label>
+      <label id="name-label" for="name"> <strong>Name</strong> </label>
       <input
         type="text"
         name="name"
@@ -24,7 +24,7 @@
         required
       />
       <br />
-      <label id="email-label" for="email">Email</label>
+      <label id="email-label" for="email"> <strong>Email</strong> </label>
       <input
         type="email"
         name="email"
@@ -33,7 +33,7 @@
         required
       />
       <br />
-      <label id="number-label" for="number">Number</label>
+      <label id="number-label" for="number"> <strong>Number</strong> </label>
       <input
         type="number"
         min="1"
@@ -45,7 +45,7 @@
       />
       <br />
       <br />
-      <p>Your faviorite brand.</p>
+      <p><strong>Your faviorite brand.</strong></p>
       <select id="dropdown" name="faviorite-brand">
         <option id="dropdown1" value="Apple">Apple</option>
         <option id="dropdown2" value="Samsung">Samsung</option>
@@ -56,6 +56,7 @@
       <br />
       <br />
       <div id="radio">
+        <p><strong>Best Accesories provider.</strong></p>
         <input
           type="radio"
           name="best-accesories-provider"
@@ -91,37 +92,39 @@
       <br />
       <br />
       <div id="checkbox">
+        <p><strong>Best service provider.</strong></p>
         <input
           type="checkbox"
-          name="best-accesories-provider"
+          name="best-service-provider"
           value="apple-checkbox"
         />Apple
         <input
           type="checkbox"
-          name="best-accesories-provider"
+          name="best-service-provider"
           id
           value="samsung-checkbox"
         />Samsung
         <input
           type="checkbox"
-          name="best-accesories-provider"
+          name="best-service-provider"
           i
           value="xiaomi-checkbox"
         />Xiaomi
         <input
           type="checkbox"
-          name="best-accesories-provider"
+          name="best-service-provider"
           value="o-checkboxppo"
         />Oppo
         <input
           type="checkbox"
-          name="best-accesories-provider"
+          name="best-service-provider"
           value="v-checkboxivo"
         />Vivo
       </div>
 
       <br />
       <br />
+      <h4>Your Comments.</h4>
       <textarea
         name="additional-comments"
         id="additional-comments"

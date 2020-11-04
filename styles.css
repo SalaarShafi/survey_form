@@ -1,5 +1,11 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f6511d;
+}
+
 #title {
   text-align: center;
+  color: #2d3047;
 }
 #description {
   text-align: center;
@@ -7,7 +13,8 @@
 
 form {
   margin: auto;
-  background: crimson;
+  background: #93032e;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +30,11 @@ form {
 }
 #submit {
   margin: auto;
-  width: 60%;
+  width: 30%;
+  font-size: large;
   border-radius: 50px;
+  font-weight: bold;
+  background: #f6511d;
+  color: white;
+  border: 0px;
 }
