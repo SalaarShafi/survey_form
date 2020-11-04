@@ -1,0 +1,28 @@
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  background: crimson;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  border-radius: 50px;
+  padding: 3.7%;
+}
+#radio {
+  display: inline-block;
+}
+#checkbox {
+  display: inline-block;
+}
+#submit {
+  margin: auto;
+  width: 60%;
+  border-radius: 50px;
+}
