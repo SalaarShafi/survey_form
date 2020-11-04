@@ -4,9 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </head>
   <body>
+    <script
+      type="text/javascript"
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
     <h1 id="title">Which Electronic Brands make sense to you.</h1>
+    <p id="description">explanation about the survey form</p>
+    <br />
+    <form action="" id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Your name"
+        required
+      />
+      <br />
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Your email"
+        required
+      />
+      <br />
+      <label id="number-label" for="number">Number</label>
+      <input
+        type="number"
+        min="1"
+        max="20"
+        name="number"
+        id="number"
+        placeholder="Your number"
+        required
+      />
+      <br />
+      <br />
+      <select id="dropdown" name="faviorite-brand">
+        <option id="dropdown1" value="Apple">Apple</option>
+        <option id="dropdown2" value="Samsung">Samsung</option>
+        <option id="dropdown3" value="Xiaomi">Xiaomi</option>
+        <option id="dropdown4" value="Oppo">Oppo</option>
+        <option id="dropdown5" value="Vivo">Vivo</option>
+      </select>
+      <br />
+      <br />
+      <input
+        type="radio"
+        name="best-accesories-provider"
+        id="apple"
+        value="apple"
+      />Apple
+      <input
+        type="radio"
+        name="best-accesories-provider"
+        id="samsung"
+        value="samsung"
+      />Samsung
+      <input
+        type="radio"
+        name="best-accesories-provider"
+        id="xiaomi"
+        value="xiaomi"
+      />Xiaomi
+      <input
+        type="radio"
+        name="best-accesories-provider"
+        id="oppo"
+        value="oppo"
+      />Oppo
+      <input
+        type="radio"
+        name="best-accesories-provider"
+        id="vivo"
+        value="vivo"
+      />Vivo
+      <br />
+      <br />
+      <input
+        type="checkbox"
+        name="best-accesories-provider"
+        value="apple-checkbox"
+      />Apple
+      <input
+        type="checkbox"
+        name="best-accesories-provider"
+        id
+        value="samsung-checkbox"
+      />Samsung
+      <input
+        type="checkbox"
+        name="best-accesories-provider"
+        i
+        value="xiaomi-checkbox"
+      />Xiaomi
+      <input
+        type="checkbox"
+        name="best-accesories-provider"
+        value="o-checkboxppo"
+      />Oppo
+      <input
+        type="checkbox"
+        name="best-accesories-provider"
+        value="v-checkboxivo"
+      />Vivo
+      <br />
+      <br />
+      <textarea
+        name="additional-comments"
+        id="additional-comments"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
   </body>
 </html>
