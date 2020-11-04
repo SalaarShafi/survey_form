@@ -39,34 +39,42 @@ form {
 #name {
   height: 7.5%;
   width: 60%;
+  padding: 6px;
   border-radius: 30px;
   border: 0px;
   color: #2d3047;
   font-weight: bold;
+  font-size: 75%;
 }
 #email {
   height: 7.5%;
   width: 60%;
+  padding: 6px;
   border-radius: 30px;
   border: 0px;
   color: #2d3047;
   font-weight: bold;
+  font-size: 75%;
 }
 #number {
   height: 7.5%;
   width: 30%;
+  padding: 6px;
   border-radius: 30px;
   border: 0px;
   color: #2d3047;
   font-weight: bold;
+  font-size: 75%;
 }
 #dropdown {
   height: 3.75%;
   width: 60%;
+  padding: 6px;
   border-radius: 30px;
   border: 0px;
   color: #2d3047;
   font-weight: bold;
+  font-size: 75%;
 }
 #radio {
   display: inline-block;
