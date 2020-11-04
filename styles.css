@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f6511d;
+  background: url(./images/pexels-neosiam-4498792.jpg);
+  background-size: cover;
 }
 
 #title {
@@ -13,7 +14,7 @@ body {
 
 form {
   margin: auto;
-  background: #93032e;
+  background: #3d2b56d9;
   color: white;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,15 @@ form {
   width: 60%;
   border-radius: 50px;
   padding: 3.7%;
+}
+#name-label {
+  border-radius: 15px;
+}
+#email-label {
+  border-radius: 15px;
+}
+#number-label {
+  border-radius: 15px;
 }
 #radio {
   display: inline-block;
@@ -37,4 +47,7 @@ form {
   background: #f6511d;
   color: white;
   border: 0px;
+}
+#additional-comments {
+  border-radius: 15px;
 }
